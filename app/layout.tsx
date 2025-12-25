@@ -25,19 +25,21 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       {
-        url: "/icon-light-32x32.png",
+        url: "/favicon.webp",
         media: "(prefers-color-scheme: light)",
+        type: "image/webp",
       },
       {
-        url: "/icon-dark-32x32.png",
+        url: "/favicon.webp",
         media: "(prefers-color-scheme: dark)",
+        type: "image/webp",
       },
       {
-        url: "/icon.svg",
-        type: "image/svg+xml",
+        url: "/favicon.webp",
+        type: "image/webp",
       },
     ],
-    apple: "/apple-icon.png",
+    apple: "/favicon.webp",
   },
 }
 
