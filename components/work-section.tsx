@@ -10,26 +10,19 @@ gsap.registerPlugin(ScrollTrigger)
 const projects = [
   {
     title: "AyurSutra",
-    medium: "React.js • MySQL • SpringBoot",
+    medium: "Node.js • Express.js • React.js • MySQL",
     description:
-      "Panchakarma Management System with responsive UI, modular components, and optimized routing. Top 8 at Smart India Hackathon 2025.",
+      "Full-stack Panchakarma management platform digitizing Ayurvedic therapy scheduling, patient history, and treatment workflows. Ranked Top 8 at Smart India Hackathon 2025.",
     github: "#",
     span: "col-span-2 row-span-2",
   },
   {
-    title: "Venture.ly",
-    medium: "Python • Streamlit • Gemini API",
-    description: "AI-driven platform for analyzing startup pitch decks and generating investor-focused insights.",
-    github: "#",
-    span: "col-span-1 row-span-1",
-  },
-  {
-    title: "Convecta",
-    medium: "Next.js • TypeScript • APIs",
+    title: "EdgeGuard",
+    medium: "React.js • Node.js • Redis • Docker • K8s • AWS",
     description:
-      "Cross-platform tool for converting playlists between Spotify and YouTube Music. Currently in development.",
+      "API protection platform detecting abnormal traffic, identifying abusive clients, and dynamically controlling access. Features a real-time security dashboard with Prometheus and Grafana observability.",
     github: "#",
-    span: "col-span-1 row-span-2",
+    span: "col-span-2 row-span-2",
   },
 ]
 
@@ -83,11 +76,11 @@ export function WorkSection() {
     <section ref={sectionRef} id="work" className="relative py-32 pl-6 md:pl-28 pr-6 md:pr-12">
       <div ref={headerRef} className="mb-16 flex items-end justify-between">
         <div>
-          <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-accent">02 / Projects</span>
+          <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-accent">03 / Projects</span>
           <h2 className="mt-4 font-[var(--font-bebas)] text-5xl md:text-7xl tracking-tight">SELECTED WORK</h2>
         </div>
         <p className="hidden md:block max-w-xs font-mono text-xs text-muted-foreground text-right leading-relaxed">
-          Full-stack applications, AI integrations, and user-focused design implementations.
+          Full-stack platforms, API protection systems, and cloud-native architecture with DevOps pipelines.
         </p>
       </div>
 

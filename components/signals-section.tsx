@@ -10,28 +10,33 @@ gsap.registerPlugin(ScrollTrigger)
 const skills = [
   {
     category: "Languages",
-    items: ["JavaScript", "TypeScript", "Java", "Python", "C++", "HTML", "CSS"],
-    description: "Core programming languages and web technologies",
+    items: ["C++", "JavaScript", "TypeScript", "Python", "Bash"],
+    description: "Core programming languages for systems and web development",
   },
   {
-    category: "Frontend",
-    items: ["React.js", "Next.js", "Redux Toolkit", "TailwindCSS"],
-    description: "Modern frontend frameworks and state management",
+    category: "DevOps & Cloud",
+    items: ["Docker", "Kubernetes", "AWS", "CI/CD", "GitHub Actions", "Linux"],
+    description: "Containerization, orchestration, and cloud infrastructure",
   },
   {
-    category: "Backend",
-    items: ["Node.js", "MySQL", "MongoDB"],
-    description: "Server-side technologies and databases",
+    category: "Backend & APIs",
+    items: ["Node.js", "Express.js", "FastAPI", "REST APIs"],
+    description: "Server-side frameworks and API architecture",
   },
   {
-    category: "Tools & Cloud",
-    items: ["Git", "GitHub", "VSCode", "Figma", "Cloudflare", "Vercel"],
-    description: "Development tools and deployment platforms",
+    category: "Databases",
+    items: ["MongoDB", "MySQL", "SQLite"],
+    description: "Relational and document-based data storage",
+  },
+  {
+    category: "Tools & Platforms",
+    items: ["Git", "GitHub", "Playwright", "VS Code", "Cloudflare", "Vercel", "Render"],
+    description: "Development tools, testing, and deployment platforms",
   },
   {
     category: "Additional",
-    items: ["UI/UX Design", "Prompt Engineering", "Team Management"],
-    description: "Design thinking and collaboration skills",
+    items: ["Automation", "API Development", "Prompt Engineering", "Team Collaboration", "Team Management"],
+    description: "Automation, engineering practices, and leadership skills",
   },
 ]
 
@@ -133,7 +138,7 @@ export function SignalsSection() {
       />
 
       <div ref={headerRef} className="mb-16 pr-6 md:pr-12">
-        <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-accent">01 / Skills</span>
+        <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-accent">02 / Skills</span>
         <h2 className="mt-4 font-[var(--font-bebas)] text-5xl md:text-7xl tracking-tight">TECHNICAL STACK</h2>
       </div>
 

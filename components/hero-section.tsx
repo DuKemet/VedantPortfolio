@@ -56,12 +56,12 @@ export function HeroSection() {
         </SplitFlapAudioProvider>
 
         <h2 className="font-[var(--font-bebas)] text-muted-foreground/60 text-[clamp(1rem,3vw,2rem)] mt-4 tracking-wide">
-          Full Stack Developer & UI/UX Designer
+          Full Stack Developer & DevOps Engineer
         </h2>
 
         <p className="mt-12 max-w-md font-mono text-sm text-muted-foreground leading-relaxed">
-          Skilled in React.js, Node.js, and MongoDB. Building responsive UIs, reusable components, and secure backend
-          systems with a focus on performance and user experience.
+          Skilled in React.js, Node.js, Express.js, and MongoDB. Building scalable full-stack applications with Docker,
+          Kubernetes, and AWS — focused on performance, reliability, and seamless user experience.
         </p>
 
         <div className="mt-16 flex items-center gap-8">

@@ -18,9 +18,9 @@ const ibmPlexMono = IBM_Plex_Mono({
 const bebasNeue = Bebas_Neue({ weight: "400", subsets: ["latin"], variable: "--font-bebas" })
 
 export const metadata: Metadata = {
-  title: "Vedant Naikwadi — Full Stack Developer & UI/UX Designer",
+  title: "Vedant Naikwadi — Full Stack Developer & DevOps Engineer",
   description:
-    "Portfolio of Vedant Naikwadi, a Full Stack Developer skilled in React, Node.js, and MongoDB. Building responsive UIs, reusable components, and secure backend systems.",
+    "Portfolio of Vedant Naikwadi, a Full Stack Developer & DevOps Engineer skilled in React.js, Node.js, Express.js, Docker, Kubernetes, and AWS. Building scalable applications with CI/CD pipelines and cloud-native architecture.",
   generator: "v0.app",
   icons: {
     icon: [

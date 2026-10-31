@@ -71,7 +71,7 @@ export function ColophonSection() {
       className="relative py-32 pl-6 md:pl-28 pr-6 md:pr-12 border-t border-border/30"
     >
       <div ref={headerRef} className="mb-16">
-        <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-accent">04 / Contact</span>
+        <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-accent">05 / Contact</span>
         <h2 className="mt-4 font-[var(--font-bebas)] text-5xl md:text-7xl tracking-tight">GET IN TOUCH</h2>
       </div>
 
@@ -81,7 +81,7 @@ export function ColophonSection() {
           <ul className="space-y-2">
             <li className="font-mono text-xs text-foreground/80">MMCOE Pune</li>
             <li className="font-mono text-xs text-foreground/80">BE Computer Engg</li>
-            <li className="font-mono text-xs text-foreground/80">GPA: 8.84</li>
+            <li className="font-mono text-xs text-foreground/80">GPA: 8.9</li>
           </ul>
         </div>
 
@@ -98,8 +98,8 @@ export function ColophonSection() {
           <h4 className="font-mono text-[9px] uppercase tracking-[0.3em] text-muted-foreground mb-4">Backend</h4>
           <ul className="space-y-2">
             <li className="font-mono text-xs text-foreground/80">Node.js</li>
-            <li className="font-mono text-xs text-foreground/80">SpringBoot</li>
-            <li className="font-mono text-xs text-foreground/80">MongoDB</li>
+            <li className="font-mono text-xs text-foreground/80">Express.js</li>
+            <li className="font-mono text-xs text-foreground/80">FastAPI</li>
           </ul>
         </div>
 
@@ -161,9 +161,9 @@ export function ColophonSection() {
         className="mt-24 pt-8 border-t border-border/20 flex flex-col md:flex-row md:items-center md:justify-between gap-4"
       >
         <p className="font-mono text-[10px] text-muted-foreground uppercase tracking-widest">
-          © 2025 Vedant Naikwadi. All rights reserved.
+          © 2026 Vedant Naikwadi. All rights reserved.
         </p>
-        <p className="font-mono text-[10px] text-muted-foreground">Full Stack Developer • UI/UX Designer</p>
+        <p className="font-mono text-[10px] text-muted-foreground">Full Stack Developer • DevOps Engineer</p>
       </div>
     </section>
   )
